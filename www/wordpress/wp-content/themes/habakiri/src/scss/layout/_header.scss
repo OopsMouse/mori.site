@@ -1,0 +1,172 @@
+.header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	z-index: 2;
+
+	&--fixed {
+		border-bottom: 1px solid $gray-lighter;
+		position: fixed;
+		width: 100%;
+	}
+
+	&--default {
+		@media ( min-width: $screen-md-min ) {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	}
+	&--2row {
+		@media ( min-width: $screen-md-min ) {
+			padding-bottom: 0;
+		}
+	}
+	&--center {
+		@media ( min-width: $screen-md-min ) {
+			padding-bottom: 0;
+		}
+	}
+}
+
+/**
+ * .header__content
+ */
+.header__content {
+	.header--default & {
+		@include table;
+
+		.header__col {
+			@include table-cell;
+		}
+	}
+
+	.header--2row & {
+		@media ( max-width: $screen-sm-max ) {
+			@include table;
+
+			.header__col {
+				@include table-cell;
+			}
+		}
+	}
+
+	.header--center & {
+		@media ( max-width: $screen-sm-max ) {
+			@include table;
+
+			.header__col {
+				@include table-cell;
+			}
+		}
+	}
+}
+
+/**
+ * .site-branding
+ */
+.site-branding {
+	.header--2row & {
+		@media ( min-width: $screen-md-min ) {
+			margin-bottom: 0;
+		}
+	}
+
+	.header--center & {
+		@media ( min-width: $screen-md-min ) {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+	}
+
+	&__heading {
+		font-size: 24px;
+		line-height: 1;
+		margin: 0;
+
+		@media ( min-width: $screen-xs-min ) {
+			font-size: 26px;
+		}
+	}
+
+	&__logo {
+		font-size: 24px;
+		line-height: 1;
+		margin: 0;
+
+		@media ( min-width: $screen-xs-min ) {
+			font-size: 26px;
+		}
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+/**
+ * .global-nav
+ */
+.global-nav-wrapper {
+	position: relative;
+}
+
+.global-nav {
+	display: none;
+	font-size: $font-size-small;
+
+	a {
+		padding: 15px;
+		text-decoration: none;
+	}
+
+	.sub-menu, .children {
+		li {
+			a {
+				padding: 10px;
+			}
+		}
+	}
+
+	.header--default & {
+		.menu {
+			float: right;
+		}
+	}
+
+	.header--2row & {
+	}
+
+	.header--center & {
+		text-align: center;
+
+		a {
+			padding-top: 10px;
+		}
+
+		.menu {
+			display: inline-block;
+			text-align: left;
+		}
+	}
+}
+
+.responsive-nav ul li ul li ul {
+	left: 220px;
+
+	&.reverse-pulldown {
+		left: -220px;
+	}
+}
+
+/**
+ * #responsive-btn
+ */
+#responsive-btn {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}

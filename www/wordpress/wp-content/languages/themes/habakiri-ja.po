@@ -1,0 +1,319 @@
+# Translation of habakiri in Japanese
+# This file is distributed under the same license as the habakiri package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-20 09:32:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: habakiri\n"
+
+#. Theme Name of the plugin/theme
+msgid "habakiri"
+msgstr "habakiri"
+
+#. Description of the plugin/theme
+msgid "Habakiri is a simple theme based on Twitter Bootstrap. This theme's goal is to create a responsive, bootstrap based WordPress theme quickly. The design is kept simple to keep the simplicity of the Bootstrap. Features are, 100% responsive layouts, the Glyphicons and Genericons icons, 6 page templates, 6 header design patterns, many color settings, a lot of hooks, related posts, minified CSS and JavaScript, Gulp use, Sass and PHP Class in functions.php."
+msgstr "Habakiri は Bootstrap ベースのシンプルなテーマです。素早くレスポンシブな Bootstrap ベースのテーマを作ることができます。デザインはほぼ素の Bootstrap のままのシンプルなものとしています。100% レスポンシブデザイン、Glyphicons・Genericons アイコン、6つのページテンプレート、6つのヘッダーデザインパターン、多くの色設定、多くのフック、個別投稿ページヘの関連記事表示、ミニファイされた CSS と JavaScript、Gulp・Sass、そして functions.php のクラス化が特徴です。"
+
+#: inc/customizer.php:377
+msgid "Page Header Background Color"
+msgstr "ページヘッダーの背景色"
+
+#: inc/customizer.php:387
+msgid "Page Header Text Color"
+msgstr "ページヘッダーの文字色"
+
+#. Template Name of the plugin/theme
+msgid "For Front Page"
+msgstr "固定ページ用"
+
+#: inc/customizer.php:357
+msgid "Footer Text Color"
+msgstr "フッター文字色"
+
+#: inc/customizer.php:367
+msgid "Footer Link Color"
+msgstr "フッターリンク色"
+
+#: inc/customizer.php:347
+msgid "Footer Background Color"
+msgstr "フッター背景色"
+
+#: inc/customizer.php:287
+msgid "Global Navigation Link Color"
+msgstr "グローバルナビゲーションのリンク色"
+
+#: inc/customizer.php:297
+msgid "Global Navigation Link Hover Color"
+msgstr "グローバルナビゲーションのリンク色 ( ホバー時 )"
+
+#: inc/customizer.php:307
+msgid "Global Navigation Pulldown Link Color"
+msgstr "グローバルナビゲーションプルダウンのリンク色"
+
+#: inc/customizer.php:317
+msgid "Global Navigation Pulldown Background Color"
+msgstr "グローバルナビゲーションプルダウンの背景色"
+
+#: inc/customizer.php:327
+msgid "Global Navigation Pulldown Background Hover Color"
+msgstr "グローバルナビゲーションプルダウンの背景色 ( ホバー時 )"
+
+#: inc/customizer.php:337
+msgid "Header Background Color"
+msgstr "ヘッダーの背景色"
+
+#: inc/customizer.php:277
+msgid "Link Hover Color"
+msgstr "リンクホバーカラー"
+
+#: inc/customizer.php:267
+msgid "Link Color"
+msgstr "リンク色"
+
+#: inc/customizer.php:171
+msgid "Header Fixed"
+msgstr "ヘッダーを固定"
+
+#: inc/customizer.php:183
+msgid "Number of footer columns"
+msgstr "フッターのカラム数"
+
+#: inc/customizer.php:195
+msgid "Blog Template"
+msgstr "ブログテンプレート"
+
+#: inc/customizer.php:207
+msgid "Displaying thumbnail in archive page"
+msgstr "アーカイブページでのサムネイル表示"
+
+#: inc/customizer.php:219
+msgid "Displaying the Braed Crumb"
+msgstr "パンくずリストを表示"
+
+#: inc/customizer.php:231
+msgid "Displaying related posts in single page"
+msgstr "個別投稿ページでの関連記事表示"
+
+#: inc/customizer.php:243
+msgid "Displaying page header"
+msgstr "ページヘッダーを表示"
+
+#: inc/customizer.php:255
+msgid "Displaying lead of page header in single page"
+msgstr "個別投稿ページのページヘッダーのリード文を表示"
+
+#: inc/customizer.php:159
+msgid "Header"
+msgstr "ヘッダー"
+
+#: inc/customizer.php:149
+msgid "Logo Text Color"
+msgstr "ロゴテキストの色"
+
+#: inc/customizer.php:139
+msgid "Logo"
+msgstr "ロゴ"
+
+#: inc/customizer.php:130
+msgid "settings"
+msgstr "設定"
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.5)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:77
+msgid "Full Width ( Fixed )"
+msgstr "全幅 ( 固定 )"
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.5)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:78
+msgid "Full Width ( Fluid )"
+msgstr "全幅 ( リキッド )"
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.5)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:76
+msgid "No Sidebar"
+msgstr "サイドバーなし"
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.5)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:75
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: inc/customizer.php:70
+msgid "3 Columns"
+msgstr "3コラム"
+
+#: inc/customizer.php:71
+msgid "4 Columns"
+msgstr "4コラム"
+
+#: inc/customizer.php:74
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: inc/customizer.php:69
+msgid "2 Columns"
+msgstr "2カラム"
+
+#: inc/customizer.php:61
+msgid "2 rows"
+msgstr "2行"
+
+#: inc/customizer.php:62
+msgid "Center Logo"
+msgstr "中央ロゴ"
+
+#: inc/customizer.php:60
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/customizer.php:56 inc/customizer.php:66
+msgid "Yes"
+msgstr "はい"
+
+#: inc/customizer.php:55 inc/customizer.php:65
+msgid "No"
+msgstr "いいえ"
+
+#: inc/class.related-posts.php:40
+msgid "Related posts"
+msgstr "関連記事"
+
+#: inc/class.entry-meta.php:102
+msgid "Tags"
+msgstr "タグ"
+
+#: inc/class.entry-meta.php:69
+msgid "Updated"
+msgstr "更新"
+
+#: inc/class.entry-meta.php:89
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/class.entry-meta.php:57
+msgid "Published"
+msgstr "公開済み"
+
+#: inc/class.entry-meta.php:44
+msgid "Author"
+msgstr "作成者"
+
+#: inc/class.bread-crumb.php:154
+msgid "Page not found"
+msgstr "ページが見つかりませんでした"
+
+#: inc/class.bread-crumb.php:119
+msgid "Home"
+msgstr "ホーム"
+
+#: functions.php:221
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: functions.php:357 inc/class.bread-crumb.php:163
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: functions.php:220
+msgid "Habakiri theme by %s"
+msgstr "Habakiri theme by %s"
+
+#: functions.php:218
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:174
+msgid "<cite class=\"fn\">%1$s</cite> said on %2$s at %3$s"
+msgstr "<cite class=\"fn\">%1$s</cite> said on %2$s at %3$s"
+
+#: functions.php:213
+msgid "Monkey Wrench"
+msgstr "モンキーレンチ"
+
+#: functions.php:169
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: functions.php:127
+msgid "Footer Widget Area"
+msgstr "フッターウィジェットエリア"
+
+#: functions.php:125
+msgid "Footer"
+msgstr "フッター"
+
+#: functions.php:118 functions.php:120
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: content-none.php:39
+msgid "No posts."
+msgstr "投稿がありません。"
+
+#: functions.php:108
+msgid "Global Navigation"
+msgstr "グローバルナビゲーション"
+
+#: functions.php:109
+msgid "Social Navigation"
+msgstr "ソーシャルナビゲーション"
+
+#: content-none.php:30
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: comments.php:19
+msgid "Comments on this post"
+msgstr "この投稿へのコメント"
+
+#: comments.php:43
+msgid "No comments."
+msgstr "コメントはありません。"
+
+#: comments.php:52
+msgid "It is necessary to <a href=\"%/wp-login.php?redirect_to=%s\">login</a> to write comment."
+msgstr "コメントを入力するためには<a href=\"%/wp-login.php?redirect_to=%s\">ログイン</a>が必要です。"
+
+#: comments.php:72
+msgid "Trackbacks and Pingbacks on this post"
+msgstr "この投稿へのトラックバック"
+
+#: comments.php:83
+msgid "No trackbacks."
+msgstr "トラックバックはありません。"
+
+#: comments.php:89
+msgid "TrackBack URL"
+msgstr "トラックバック URL"
+
+#: content-none.php:19 functions.php:355
+msgid "Woops! Page not found."
+msgstr "ページが見つかりませんでした。"
+
+#: content-none.php:20
+msgid "The page you are looking for may be moved or deleted."
+msgstr "お探しのページが移動したか削除されています。"
+
+#: content-none.php:21
+msgid "Please search this serch box."
+msgstr "この検索ボックスから検索してください。"
+
+#. Theme URI of the plugin/theme
+msgid "http://habakiri.2inc.org"
+msgstr "http://habakiri.2inc.org"
+
+#. Author of the plugin/theme
+msgid "inc2734"
+msgstr "inc2734"
+
+#. Author URI of the plugin/theme
+msgid "http://2inc.org"
+msgstr "http://2inc.org"

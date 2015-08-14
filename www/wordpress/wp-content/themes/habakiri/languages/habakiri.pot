@@ -1,0 +1,339 @@
+# Copyright (C) 2015 inc2734
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: habakiri 1.1.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/habakiri\n"
+"POT-Creation-Date: 2015-08-08 10:52:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: comments.php:19
+msgid "Comments on this post"
+msgstr ""
+
+#: comments.php:43
+msgid "No comments."
+msgstr ""
+
+#: comments.php:52
+msgid ""
+"It is necessary to <a href=\"%/wp-login.php?redirect_to=%s\">login</a> to "
+"write comment."
+msgstr ""
+
+#: comments.php:72
+msgid "Trackbacks and Pingbacks on this post"
+msgstr ""
+
+#: comments.php:83
+msgid "No trackbacks."
+msgstr ""
+
+#: comments.php:89
+msgid "TrackBack URL"
+msgstr ""
+
+#: content-none.php:28 functions.php:394
+msgid "Woops! Page not found."
+msgstr ""
+
+#: content-none.php:29
+msgid "The page you are looking for may be moved or deleted."
+msgstr ""
+
+#: content-none.php:30
+msgid "Please search this serch box."
+msgstr ""
+
+#: content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:48
+msgid "No posts."
+msgstr ""
+
+#: functions.php:108
+msgid "Global Navigation"
+msgstr ""
+
+#: functions.php:109
+msgid "Social Navigation"
+msgstr ""
+
+#: functions.php:118 functions.php:120
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:127
+msgid "Footer"
+msgstr ""
+
+#: functions.php:129
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:172
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:177 functions.php:223
+msgid "<cite class=\"fn\">%1$s</cite> said on %2$s at %3$s"
+msgstr ""
+
+#: functions.php:246
+msgid "Monkey Wrench"
+msgstr ""
+
+#: functions.php:251
+msgid "WordPress"
+msgstr ""
+
+#: functions.php:253
+msgid "Habakiri theme by %s"
+msgstr ""
+
+#: functions.php:254
+msgid "Powered by %s"
+msgstr ""
+
+#: functions.php:396 inc/class.bread-crumb.php:166
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/class.bread-crumb.php:122
+msgid "Home"
+msgstr ""
+
+#: inc/class.bread-crumb.php:157
+msgid "Page not found"
+msgstr ""
+
+#: inc/class.entry-meta.php:44
+msgid "Author"
+msgstr ""
+
+#: inc/class.entry-meta.php:57
+msgid "Published"
+msgstr ""
+
+#: inc/class.entry-meta.php:69
+msgid "Updated"
+msgstr ""
+
+#: inc/class.entry-meta.php:89
+msgid "Category"
+msgstr ""
+
+#: inc/class.entry-meta.php:102
+msgid "Tags"
+msgstr ""
+
+#: inc/class.related-posts.php:40
+msgid "Related posts"
+msgstr ""
+
+#: inc/customizer.php:67 inc/customizer.php:77
+msgid "No"
+msgstr ""
+
+#: inc/customizer.php:68 inc/customizer.php:78
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "2 rows"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Center Logo"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "2 Columns"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "3 Columns"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "4 Columns"
+msgstr ""
+
+#: inc/customizer.php:86 inc/customizer.php:93 inc/customizer.php:100
+msgid "Right Sidebar"
+msgstr ""
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.8)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:87 inc/customizer.php:94 inc/customizer.php:101
+msgid "Left Sidebar"
+msgstr ""
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.8)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:88 inc/customizer.php:95 inc/customizer.php:102
+msgid "No Sidebar"
+msgstr ""
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.8)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:89 inc/customizer.php:96 inc/customizer.php:103
+msgid "Full Width ( Fixed )"
+msgstr ""
+
+#. #-#-#-#-#  habakiri.pot (habakiri 1.1.8)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer.php:90 inc/customizer.php:97 inc/customizer.php:104
+msgid "Full Width ( Fluid )"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "settings"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Logo Text Color"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:199
+msgid "Header Fixed"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "Number of footer columns"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Blog Template"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Search Template"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "404 Template"
+msgstr ""
+
+#: inc/customizer.php:259
+msgid "Displaying thumbnail in archive page"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Displaying the Bread Crumb"
+msgstr ""
+
+#: inc/customizer.php:283
+msgid "Displaying related posts in single page"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "Displaying page header"
+msgstr ""
+
+#: inc/customizer.php:307
+msgid "Displaying lead of page header in single page"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:339
+msgid "Global Navigation Link Color"
+msgstr ""
+
+#: inc/customizer.php:349
+msgid "Global Navigation Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:359
+msgid "Global Navigation Pulldown Link Color"
+msgstr ""
+
+#: inc/customizer.php:369
+msgid "Global Navigation Pulldown Background Color"
+msgstr ""
+
+#: inc/customizer.php:379
+msgid "Global Navigation Pulldown Background Hover Color"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:399
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:409
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer.php:419
+msgid "Footer Link Color"
+msgstr ""
+
+#: inc/customizer.php:429
+msgid "Page Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:439
+msgid "Page Header Text Color"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "habakiri"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://habakiri.2inc.org"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Habakiri is a simple theme based on Twitter Bootstrap. This theme's goal is "
+"to create a responsive, bootstrap based WordPress theme quickly. The design "
+"is kept simple to keep the simplicity of the Bootstrap. Features are, 100% "
+"responsive layouts, the Glyphicons and Genericons icons, 6 page templates, 6 "
+"header design patterns, many color settings, a lot of hooks, related posts, "
+"minified CSS and JavaScript, Gulp use, Sass and PHP Class in functions.php."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "inc2734"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://2inc.org"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "For Front Page"
+msgstr ""

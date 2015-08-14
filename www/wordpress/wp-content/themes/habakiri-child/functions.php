@@ -11,3 +11,14 @@ function habakiri_child_theme_setup() {
 	}
 }
 add_action( 'after_setup_theme', 'habakiri_child_theme_setup' );
+
+//親子関係を確認する関数
+function is_subpage() { //子ページならfalseを返す
+  global $post;
+  if (is_page() && $post->post_parent){
+    $parentID = $post->post_parent;
+    return $parentID;
+  } else {
+    return false;
+  };
+};

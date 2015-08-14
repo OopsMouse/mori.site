@@ -52,10 +52,18 @@
 					<?php do_action( 'habakiri_before_global_navigation' ); ?>
 					<nav class="global-nav" role="navigation">
 						<?php
-						wp_nav_menu( array(
-							'theme_location' => 'global-nav',
-							'depth'          => 0,
-						) );
+						if(is_subpage()){
+								wp_nav_menu( array( //子ページの場合のgnav
+									'theme_location' => 'global-nav',
+									'menu' => 'child-gnav',
+									'depth'          => 0,
+								) );
+							} else {
+								wp_nav_menu( array(
+									'theme_location' => 'global-nav',
+									'depth'          => 0,
+								) );
+							}
 						?>
 					<!-- end .global-nav --></nav>
 					<?php do_action( 'habakiri_after_global_navigation' ); ?>

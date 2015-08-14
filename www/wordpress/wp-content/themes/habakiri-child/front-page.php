@@ -21,10 +21,14 @@
 				<?php do_action( 'habakiri_before_entry_content' ); ?>
 				<div class="entry">
 					<?php Habakiri::the_title(); ?>
+					<?php
+						$attachment_id = 16; // 添付ID
+						$image_attributes = wp_get_attachment_image_src( $attachment_id ); // returns an array
+						?>
 					<div class="entry__content entry-content">
-						<section class="section">
-							<h1 class="section-title">タイトル</h1>
-							<p class="text-center">サンプルです</p>
+						<section class="section section-image section-fixed" style="background-image:url( <?php echo $image_attributes[0] ?> )">
+						<h1 class="section-title">タイトル</h1>
+						<p class="text-center">サンプルです</p>
 						</section>
 						<section class="section">
 							<h1 class="section-title">PROFILE</h1>

@@ -11,7 +11,7 @@ require( '../../assets/bootstrap/javascripts/bootstrap.js' );
 require( './jquery.responsive-nav/jquery.responsive-nav.js' );
 
 jQuery( function( $ ) {
-	
+
 	/**
 	 * .global-nav
 	 */

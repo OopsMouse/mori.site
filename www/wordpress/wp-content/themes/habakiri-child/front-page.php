@@ -60,9 +60,14 @@
 							$attachment_id = $ID; // 添付ID
 							$image_attributes = wp_get_attachment_image_src( $attachment_id,"full","");
 							?>
-						<section class="section section-image section-fixed" style="background-image:url( <?php echo $image_attributes[0]; ?> )"　id="home">
-						<h1 class="section-title">タイトル</h1>
-						<p class="text-center">サンプルです</p>
+						<section class="jumbotron section-image section-fixed" style="background-image:url( <?php echo $image_attributes[0]; ?> )"　id="home">
+							<h1 class="text-center">SHIGEKI MORI</h1>
+							<p class="text-center">三重県四日市市在住 画家:森重樹氏のホームページになります。</p>
+							<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+							<a class="btn btn-default btn-block">作品紹介ページへ</a>
+							</div>
+							</div>
 						</section>
 						<section class="section" id="profile">
 							<h1 class="section-title">PROFILE</h1>

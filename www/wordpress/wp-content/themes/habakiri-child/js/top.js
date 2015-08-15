@@ -10,11 +10,18 @@ jQuery(function($){
   });
   // #で始まるアンカーをクリックした場合の処理
   jQuery('a[href^=#]').click(function() {
+    var headerHight = 0;
     var speed = 400; // ミリ秒
     var href= jQuery(this).attr("href");
     var target = jQuery(href == "#" || href == "" ? 'html' : href);
-    var position = target.offset().top;
+    var position = target.offset().top-headerHight;
     jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
     return false;
   });
+
+
+
+
+
+
 });

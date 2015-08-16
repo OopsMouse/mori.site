@@ -30,3 +30,36 @@ html, body{
 .section {
   margin-top: 56px
 }*/
+
+/****************************************
+
+          TOPへ戻るボタン（Go to top）
+
+*****************************************/
+#page-top{
+    position:fixed;
+    right:16px;
+    bottom:16px;
+    display: none;
+}
+
+#page-top a{
+    color:#fff;
+    padding:10px;
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+    text-align:center;
+    background:#aaa;
+    line-height:100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+}
+
+#page-top a:hover{
+    background:#8b8b8b;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    transition:all 0.3s;
+}

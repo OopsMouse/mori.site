@@ -1,5 +1,6 @@
-//画面サイズに合わせてheightを指定,CSS書き換えます
 jQuery(function($){
+  
+  //画面サイズに合わせてheightを指定,CSS書き換えます
   $(document).ready(function () {
     hsize = $(window).height();
     $("section").css("height", hsize + "px");
@@ -18,10 +19,8 @@ jQuery(function($){
     jQuery('body,html').animate({scrollTop:position}, speed, 'swing');
     return false;
   });
-});
 
-//ページトップへ移動するボタン
-jQuery(function(){
+  //ページトップへ移動するボタン
   jQuery(window).scroll(function(){
     var now = jQuery(window).scrollTop();
     if(now > 300){
@@ -36,4 +35,5 @@ jQuery(function(){
           scrollTop: 0
       }, 400);
   });
+
 });

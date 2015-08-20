@@ -1,0 +1,18 @@
+{
+    "name": "vccw/mailcatcher",
+    "license": "GPL2",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "Takayuki Miyauchi",
+            "email": "miya@wpist.me"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "lib/VCCW_MailCatcher.php"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "name": "vccw/mailcatcher",
+        "version": "0.2.2",
+        "version_normalized": "0.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vccw-team/mailcatcher.git",
+            "reference": "dbeb1c863bf5d113a6a5e8eef4557aa343e9da7f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vccw-team/mailcatcher/zipball/dbeb1c863bf5d113a6a5e8eef4557aa343e9da7f",
+            "reference": "dbeb1c863bf5d113a6a5e8eef4557aa343e9da7f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2015-08-12 07:34:14",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/VCCW_MailCatcher.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL2"
+        ],
+        "authors": [
+            {
+                "name": "Takayuki Miyauchi",
+                "email": "miya@wpist.me"
+            }
+        ]
+    }
+]

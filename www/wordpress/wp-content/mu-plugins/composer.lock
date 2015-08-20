@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "728c3f19f2056a9431874a4f1c3aa5db",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "vccw/mailcatcher",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vccw-team/mailcatcher.git",
+                "reference": "dbeb1c863bf5d113a6a5e8eef4557aa343e9da7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vccw-team/mailcatcher/zipball/dbeb1c863bf5d113a6a5e8eef4557aa343e9da7f",
+                "reference": "dbeb1c863bf5d113a6a5e8eef4557aa343e9da7f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/VCCW_MailCatcher.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Takayuki Miyauchi",
+                    "email": "miya@wpist.me"
+                }
+            ],
+            "time": "2015-08-12 07:34:14"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

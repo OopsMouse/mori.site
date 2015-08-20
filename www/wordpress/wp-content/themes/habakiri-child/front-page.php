@@ -50,7 +50,7 @@
         				}
     					}
 							?>
-						<section class="jumbotron section-image section-fixed" style="background-image:url( <?php echo $guid; ?> )"　id="home">
+						<section class="jumbotron section-image section-fixed" style="background-image:url( <?php echo $guid ?> )"　id="home">
 							<h1 class="text-center">SHIGEKI MORI</h1>
 							<p class="text-center">
 								<?php
@@ -69,25 +69,25 @@
 							setup_postdata($get_page);
 							?>
 						<section class="section" id="<?php echo $get_page->post_name ?>">
-							<h1 class="section-title"><?php echo $get_page->post_title; ?></h1>
-							<p class="text-center"><?php echo $get_page->post_content; ?></p>
+							<h1 class="section-title"><?php echo $get_page->post_title ?></h1>
+							<p class="text-center"><?php echo apply_filters('the_content', $get_page->post_content); ?></p>
 						</section>
 							<?php
 							$get_page = get_page_by_path('home/lesson');
 							setup_postdata($get_page);
 							?>
 						<section class="section" id="<?php echo $get_page->post_name ?>">
-							<h1 class="section-title"><?php echo $get_page->post_title; ?></h1>
-							<p class="text-center"><?php echo $get_page->post_content; ?></p>
+							<h1 class="section-title"><?php echo $get_page->post_title ?></h1>
+							<p class="text-center"><?php echo apply_filters('the_content', $get_page->post_content); ?></p>
 						</section>
 							<?php
 							$get_page = get_page_by_path('home/contact');
 							setup_postdata($get_page);
 							?>
-						<section class="section" id="<?php echo $get_page->post_name ?>">
+						<div class="section" id="<?php echo $get_page->post_name ?>">
 							<h1 class="section-title"><?php echo $get_page->post_title ?></h1>
-							<p class="text-center"><?php echo $get_page->post_content ?></p>
-						</section>
+							<?php echo apply_filters('the_content', $get_page->post_content); ?>
+						</div>
 						<?php do_action( 'habakiri_append_entry_content_front_page_template' ); ?>
 					<!-- end .entry-content --></div>
 					<?php do_action( 'habakiri_after_entry_content' ); ?>

@@ -1,0 +1,6 @@
+{
+    "name": "mu-plugins",
+    "require-dev": {
+        "vccw/mailcatcher": "*"
+    }
+}

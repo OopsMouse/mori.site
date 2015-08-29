@@ -10,6 +10,36 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Template: habakiri
 */
 
+/*entry内h1を修正*/
+div.entry h1 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*profileのクラス*/
+div .left {
+ 	float: left;
+ 	width: 50%;
+ 	}
+div .right {
+ 	float: right;
+ 	width: 50%;
+ 	}
+div.right h3{
+	margin-top:20px;
+	 	}
+div.right h2{
+	margin-top:10px;
+	 	}
+div.right table {
+	width:90%;
+	margin: 0px 10% 0px 0px;
+		}
+div.left img {
+	width:60%;
+	margin: 10px 20%;
+}
+
 /****************************************
 
           お問い合わせのメールフォーム用

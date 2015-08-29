@@ -12,6 +12,7 @@ function habakiri_child_theme_setup() {
 }
 add_action( 'after_setup_theme', 'habakiri_child_theme_setup' );
 
+//contact,home(slugID)の時のみスクリプト読み込む
 function my_contact_enqueue_scripts(){
   wp_deregister_script('contact-form-7');
   wp_deregister_style('contact-form-7');
@@ -26,6 +27,17 @@ function my_contact_enqueue_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'my_contact_enqueue_scripts');
 
+/**コピーライトを変更
+ * @param string $copyright
+ * @return string
+ */
+function my_habakiri_copyright( $copyright ) {
+	$copyright = ""; //初期化
+	$copyright .= sprintf('Copyright © Atolle Mori 2015');
+	return $copyright;
+}
+add_filter( 'habakiri_copyright', 'my_habakiri_copyright' );
+
 //親子関係を確認する関数
 function is_subpage() { //子ページならfalseを返す
   global $post;
@@ -36,3 +48,29 @@ function is_subpage() { //子ページならfalseを返す
     return false;
   };
 };
+
+//ショートコード
+function shortcode_getImg($atts) {
+	extract(
+		shortcode_atts(array('slugID' => 'home/profile'),$atts)
+	);
+	$get_page = get_page_by_path($slugID);
+	$get_pageID = $get_page->ID;
+	$arg = array(
+		'numberposts' => -1,//取得件数（初期値は5件、-1で全添付を取得）
+		'post_type' => 'attachment',
+		'post_mime_type' => 'image',
+		'post_parent' => $get_pageID//帰属する投稿ID
+	);
+	$attachments = get_posts( $arg );
+	if ( $attachments ) {
+		foreach ( $attachments as $attachment ) {
+			$img = wp_get_attachment_image_src( $attachment->ID, 'full' );
+			$imgURL = $img[0];//取得したイメージのURL
+			$ID = $attachment->ID;//添付ID
+		}
+	}
+$result = sprintf('<img class="img-thumbnail" src=%s >',$imgURL);
+return $result;
+}
+add_shortcode('getImg', 'shortcode_getImg');

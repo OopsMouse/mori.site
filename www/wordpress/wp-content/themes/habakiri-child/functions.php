@@ -27,6 +27,11 @@ function my_contact_enqueue_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'my_contact_enqueue_scripts');
 
+function my_habakiri_prepend_entry_content_front_page_template(){
+
+}
+add_action( 'habakiri_prepend_entry_content_front_page_template', 'my_habakiri_prepend_entry_content_front_page_template');
+
 /**コピーライトを変更
  * @param string $copyright
  * @return string
@@ -49,7 +54,7 @@ function is_subpage() { //子ページならfalseを返す
   };
 };
 
-//ショートコード
+//ショートコード...profileページの画像を生成
 function shortcode_getImg($atts) {
 	extract(
 		shortcode_atts(array('slugID' => 'home/profile'),$atts)

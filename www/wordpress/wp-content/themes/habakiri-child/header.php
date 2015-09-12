@@ -19,7 +19,9 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.min.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/top.js"></script>
+	<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/headroom.min.js'></script>
+	<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/jQuery.headroom.min.js'></script>
+	<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/js/top.js'></script>
 </head>
 <body <?php body_class(); ?>>
 <?php do_action( 'habakiri_before_container' ); ?>
@@ -39,7 +41,7 @@
 		}
 	}
 	?>
-	<header id="header" class="header <?php echo esc_attr( implode( ' ', $header_classes ) ); ?>">
+	<header id="header" class="header headroom <?php echo esc_attr( implode( ' ', $header_classes ) ); ?>">
 		<?php do_action( 'habakiri_before_header_content' ); ?>
 		<div class="container">
 			<div class="row header__content header-content">

@@ -125,3 +125,8 @@ body .wpcf7{
     -moz-transition:all 0.3s;
     transition:all 0.3s;
 }
+
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s linear;}
+.headroom--unpinned {top: -60px;}
+.headroom--pinned {top: 0;}
+

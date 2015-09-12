@@ -10,6 +10,37 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Template: habakiri
 */
 
+/*entry内のh1を修正*/
+div.entry h1 {
+	padding-top: 20px;
+	text-align: center;
+}
+
+/*profileのクラス*/
+div .left {
+ 	float: left;
+ 	width: 50%;
+ 	}
+div.left img {
+	width:60%;
+	margin: 10px 20%;
+	}
+
+div .right {
+ 	float: right;
+ 	width: 50%;
+ 	}
+div.right h3{
+	margin-top:20px;
+	 	}
+div.right h2{
+	margin-top:10px;
+	 	}
+div.right table {
+	width:90%;
+	margin: 0px 10% 0px 0px;
+		}
+
 /****************************************
 
           お問い合わせのメールフォーム用
@@ -88,3 +119,8 @@ body .wpcf7{
     -moz-transition:all 0.3s;
     transition:all 0.3s;
 }
+
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s linear;}
+.headroom--unpinned {top: -60px;}
+.headroom--pinned {top: 0;}
+

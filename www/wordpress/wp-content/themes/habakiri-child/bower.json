@@ -1,0 +1,16 @@
+{
+  "name": "habakiri-child",
+  "version": "0.0.1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-gi-thewall": "~1.0.2",
+    "headroom.js": "~0.7.0"
+  }
+}

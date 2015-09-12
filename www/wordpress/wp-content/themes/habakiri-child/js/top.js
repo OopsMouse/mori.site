@@ -36,4 +36,5 @@ jQuery(function($){
       }, 400);
   });
 
+  $(".headroom").headroom();
 });

@@ -10,7 +10,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery-gi-thewall": "~1.0.2",
-    "headroom.js": "~0.7.0"
+    "headroom.js": "~0.7.0",
+    "Formstone": "~0.8.5"
   }
 }

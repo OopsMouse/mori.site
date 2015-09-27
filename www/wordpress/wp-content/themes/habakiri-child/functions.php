@@ -104,7 +104,7 @@ function custom_gallery_shortcode( $attr ) {
     'orderby'    => 'menu_order ID',
     'id'         => $post ? $post->ID : 0,
     'columns'    => 4,
-    'size'       => 'thumbnail',
+    'size'       => 'medium',
     'include'    => '',
     'exclude'    => '',
     'link'       => ''
@@ -141,6 +141,8 @@ function custom_gallery_shortcode( $attr ) {
 
   $i = 0;
   $is_closed_div = true;
+
+  var_dump($atts);
 
   if (12 % $columns == 0) {
     $md_columns = 12 / $columns;

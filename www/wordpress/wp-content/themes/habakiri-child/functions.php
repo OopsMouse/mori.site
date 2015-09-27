@@ -157,7 +157,7 @@ function custom_gallery_shortcode( $attr ) {
     }
 
     $img_url   = wp_get_attachment_url( $id );
-    $thumb_url = wp_get_attachment_thumb_url( $id );
+    list( $thumb_url, $_width, $_height ) = wp_get_attachment_image_src( $id, $atts['size'] );
 
     $output .= "<div class='col-xs-12 col-sm-{$sm_columns} col-md-{$md_columns} portfolio-item'>";
     $output .= "<div class='portfolio-img'>";

@@ -5,12 +5,16 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "assets/libs",
     "test",
     "tests"
   ],
   "dependencies": {
-    "jquery-gi-thewall": "~1.0.2",
-    "headroom.js": "~0.7.0"
+    "headroom.js": "~0.7.0",
+    "Formstone": "~0.8.5",
+    "font-awesome": "font-awsome#~4.4.0",
+    "bootstrap": "~3.3.5",
+    "jQuery.within": "git@github.com:OopsMouse/jQuery.within.git",
+    "lightbox2": "~2.8.1"
   }
 }

@@ -123,32 +123,32 @@ div.entry h1 {
 }
 
 /*profileのクラス*/
-div .left {
+div .profile-left {
  	float: left;
  	width: 35%;
  	}
-div.left img {
+div.profile-left img {
 	width:70%;
 	margin: 10px 20% 10px 15%;;
 	}
 
-div .center {
+div .profile-center {
  	float: left;
 	width: 25%;
  	}
-div.center h2{
+div.profile-center h2{
 	margin-top:10px;
 	}
 
-div .right {
+div .profile-right {
  	float: right;
  	width: 40%;
  	}
-div.right h3{
+div.profile-right h3{
 	margin-top:10px;
 	 	}
 
-div.right table {
+div.profile-right table {
 	width:90%;
 	margin: 0px 15% 0px 0px;
 		}
@@ -239,4 +239,3 @@ article.artwork {
 .headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s linear;}
 .headroom--unpinned {top: -60px;}
 .headroom--pinned {top: 0;}
-

@@ -4,7 +4,6 @@ div.wpcf7 {
 }
 
 div.wpcf7-response-output {
-	margin: 2em 0.5em 1em;
 	padding: 0.2em 1em;
 }
 
@@ -32,7 +31,7 @@ div.wpcf7-spam-blocked {
 }
 
 div.wpcf7-validation-errors {
-	border: 2px solid #f7e700;
+	border: 2px solid #f00;
 }
 
 span.wpcf7-form-control-wrap {
@@ -45,7 +44,7 @@ span.wpcf7-not-valid-tip {
 	display: block;
 }
 
-.use-floating-validation-tip span.wpcf7-not-valid-tip { 
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
 	position: absolute;
 	top: 20%;
 	left: 20%;

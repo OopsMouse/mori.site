@@ -123,7 +123,7 @@ div.entry h1 {
 }
 
 /*profileのクラス*/
-div .profile-left {
+/*div .profile-left {
  	float: left;
  	width: 35%;
  	}
@@ -151,7 +151,7 @@ div.profile-right h3{
 div.profile-right table {
 	width:90%;
 	margin: 0px 15% 0px 0px;
-		}
+		}*/
 
 /****************************************
 
@@ -163,40 +163,82 @@ div.profile-right table {
 	color: #f5637a;
 }
 
-body .wpcf7{
-  width:95%;
-  max-width:700px;
-  margin:0 auto;
+.wpcf7-form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-.wpcf7 input[type="text"],
-.wpcf7 input[type="email"],
-.wpcf7 input[type="url"],
-.wpcf7 textarea {
-	background-color: #fff;
-	color: #333;
-	width: 95%;
-	border: 1px solid #ddd;
-	font-size: 100%;
-	padding: 0.5em;
-	border-radius: 4px;
-	box-shadow: 1px 1px 3px rgba(0,0,0,.1) inset;
+.wpcf7-form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
 }
 
-.wpcf7 input[type="submit"] {
-	font-size: 100%;
-	padding: 0.2em 0.4em;
-	background: #eee;
-	color: #333;
-	border-radius: 4px;
-	cursor: pointer;
-	box-shadow: 0 0 1px rgba(0,0,0,.2);
-	border: 1px solid #ccc;
-	text-shadow: -1px 1px 0 rgba(255,255,255,1);
+.wpcf7-form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
 }
 
-.wpcf7 input[type="submit"]:hover {
-	box-shadow: 0 0 1px rgba(0,0,0,.2) inset;
+.wpcf7-form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+.wpcf7-form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+.wpcf7-form-control[disabled],
+.wpcf7-form-control[readonly],
+fieldset[disabled] .wpcf7-form-control {
+  background-color: #eee;
+  opacity: 1;
+}
+
+.wpcf7-form-control[disabled],
+fieldset[disabled] .wpcf7-form-control {
+  cursor: not-allowed;
+}
+
+textarea.wpcf7-form-control {
+  height: auto;
+}
+
+.form-control-wrap {
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+.btn-color-blue:hover {
+  background-color: #0068b7;
+  color: white;
+}
+
+.wpcf7-response-output {
+  margin-left: 8.33333%;
+  width: 83.33333%;
+}
+
+@media (min-width: 992px) {
+  .wpcf7-response-output {
+    margin-left: 16.66667%;
+    width: 66.66667%;
+  }
 }
 
 /****************************************
